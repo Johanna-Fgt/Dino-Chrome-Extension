@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Bangers','Helvetica', cursive;
+  width: 300px;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  background: radial-gradient(red, black);
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0.8em;
+}
+
+button {
+  cursor: pointer;
+  width: 80%;
+  height: 3em;
+  font-family: 'Bangers','Helvetica', cursive;
+  font-size: 2.5em;
+  background: black;
+  opacity: 0.9;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 242, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  outline: none;
+}
+
+button:hover {
+  border: solid 5px black;
+  background: rgb(255, 242, 0);
+  color: black;
+  opacity: 1;
+}
+
+button:disabled {
+  opacity: 0.3;
+}
