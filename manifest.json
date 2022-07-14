@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Dinausors rule again",
+    "description": "Chrome extension workshop for Le Wagon",
+    "author": "Johanna-Fgt",
+    "version": "2",
+    "permissions": ["tabs"],
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["scripts/unleash.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Dinausors rule again !"
+    },
+    "icons": {
+      "16": "images/dinosaur16.png",
+      "32": "images/dinosaur32.png",
+      "64": "images/dinosaur64.png",
+      "128": "images/dinosaur128.png"
+    }
+}
